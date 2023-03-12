@@ -1,0 +1,22 @@
+export default{
+    name:'blog',
+    type:'document',
+    title:'Blog',
+    fields:[
+        {
+            name:'title',
+            type:'string',
+            title:'Title'
+        },
+        {
+            name:'date',
+            type:'datetime',
+            title:'Date'
+        },
+        {
+            name:'content',
+            title:'Content',
+            type:'string'
+        }
+    ]
+}
